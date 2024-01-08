@@ -4,4 +4,7 @@
 /* Overrides the default styles set by the browser */
 * {
     font-family: 'Hind Vadodara', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
