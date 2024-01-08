@@ -1,2 +1,7 @@
 /* Google Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap');
+
+/* Overrides the default styles set by the browser */
+* {
+    font-family: 'Hind Vadodara', sans-serif;
+}
