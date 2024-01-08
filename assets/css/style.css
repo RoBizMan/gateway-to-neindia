@@ -8,3 +8,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Header */
+header {
+    background-color: #4F200D;
+    box-shadow: 2px 2px 5px 2px #3a3a3a;
+    width: 100%;
+    z-index: 99;
+    position: sticky;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}
