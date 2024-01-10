@@ -15,7 +15,7 @@ header {
     box-shadow: 2px 2px 5px 2px #3a3a3a;
     width: 100%;
     height: auto;
-    z-index: 99;
+    z-index: 50;
     position: sticky;
     top: 0;
     display: flex;
@@ -29,26 +29,35 @@ header img {
     padding: 5px 0 5px 5px;
 }
 
-/* Nav menu */
-.nav {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    overflow: hidden;
-    max-height: 0;
-    transition: max-height .5s ease-out;
-    justify-content: center;
+header a {
+    text-decoration: none;
 }
 
-.fa-solid,
-.fa-bars {
-    color: white;
+#menu {
+    list-style-type: none;
+}
+
+/* Nav menu */
+nav {
+    top: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    display: none;
+}
+
+.menu-toggle-label {
+    color: #F6F1E9;
     font-size: 1.5em;
-    text-align: center;
     padding: 5px 5px 5px 0;
 }
 
 /* Hidden checkbox */
 #side-menu {
     display: none;
+}
+
+/* Nav toggle */
+#side-menu:checked~nav {
+    display: block;
 }
