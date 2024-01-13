@@ -12,16 +12,23 @@
 
 /* Overrides the default styles set by the browser */
 * {
-    font-family: 'Hind Vadodara', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Hind Vadodara', sans-serif;
+    color: var(--black)
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+}
+
 /* Header */
 header {
-    background-color: #4F200D;
-    box-shadow: 2px 2px 5px 2px #3a3a3a;
+    background-color: var(--brown);
+    box-shadow: 2px 2px 5px 2px var(--grey);
     width: 100%;
     height: auto;
     z-index: 50;
