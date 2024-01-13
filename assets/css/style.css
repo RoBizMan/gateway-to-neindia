@@ -138,3 +138,11 @@ nav {
         display: none;
     }
 }
+
+/* Media query for larger devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    .menu a:hover {
+        background-color: var(--yellow);
+        color: var(--black);
+    }
+}
