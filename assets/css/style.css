@@ -1,6 +1,15 @@
 /* Google Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap');
 
+/* Set global variables for colors */
+:root {
+    --brown: #4F200D;
+    --yellow: #FFD93D;
+    --white: #F6F1E9;
+    --grey: #3D3B40;
+    --black: #191919;
+}
+
 /* Overrides the default styles set by the browser */
 * {
     font-family: 'Hind Vadodara', sans-serif;
