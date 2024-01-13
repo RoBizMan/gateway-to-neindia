@@ -77,13 +77,14 @@ nav {
 }
 
 /* Menu position */
-#menu {
+.menu {
     float: right;
 }
 
 /* Menu style */
-#menu > li {
+.menu > li {
     margin-bottom: 2vh;
+    font-size: 2vh;
 }
 
 /* Toggle menu */
@@ -107,7 +108,33 @@ nav {
     display: none;
 }
 
+/* Display active on the current page */
 .active {
     background-color: var(--yellow);
     color: var(--black);
+}
+
+/* Media query for tablets and larger screens (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+        box-shadow: none;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .menu > li {
+        padding-left: 1rem;
+        font-size: 2vh;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
 }
