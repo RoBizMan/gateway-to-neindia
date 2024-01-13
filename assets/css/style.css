@@ -55,25 +55,17 @@ header a, li {
 
 /* Nav menu */
 nav {
-    top: 100%;
-    width: 100%;
     position: absolute;
-    left: 0;
+    background-color: var(--brown);
+    width: auto;
+    top: 100%;
+    right: 0;
+    padding: 0 1rem;
     display: none;
+    box-shadow: 0 0.5vh 0.5vh 0.5vh var(--grey);
 }
 
-.menu-toggle-label {
-    color: #F6F1E9;
-    font-size: 1.5em;
-    padding: 5px 5px 5px 0;
-}
-
-/* Hidden checkbox */
-#side-menu {
-    display: none;
-}
-
-/* Nav toggle */
-#side-menu:checked~nav {
-    display: block;
+.fa-solid, .fa-bars {
+    color: var(--white);
+    font-size: 2rem;
 }
