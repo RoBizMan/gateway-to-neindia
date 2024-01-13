@@ -48,9 +48,12 @@ header img {
     padding: 5px 0 5px 5px;
 }
 
-/* Navbar list style */
-header a, li {
+a {
     text-decoration: none;
+    color: var(--white);
+}
+
+li {
     list-style-type: none;
     color: var(--white);
 }
@@ -78,8 +81,9 @@ nav {
     float: right;
 }
 
+/* Menu style */
 #menu > li {
-    margin-bottom: 1vh;
+    margin-bottom: 2vh;
 }
 
 /* Toggle menu */
@@ -96,4 +100,14 @@ nav {
     100% {
         opacity: 1;
     }
+}
+
+/* Hide checkbox icon */
+#side-menu {
+    display: none;
+}
+
+.active {
+    background-color: var(--yellow);
+    color: var(--black);
 }
