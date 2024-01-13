@@ -19,7 +19,8 @@
 
 body {
     font-family: 'Hind Vadodara', sans-serif;
-    color: var(--black)
+    color: var(--black);
+    background-color: var(--white);
     min-height: 100vh;
     flex-direction: column;
     display: flex;
@@ -28,14 +29,15 @@ body {
 /* Header */
 header {
     background-color: var(--brown);
-    box-shadow: 2px 2px 5px 2px var(--grey);
-    width: 100%;
-    height: auto;
-    z-index: 50;
+    padding: 1rem;
     position: sticky;
-    top: 0;
+    z-index: 50;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
+    box-shadow: 0 0.5vh 1vh 0.5vh var(--grey);
+    border-radius: 0 0 1vh 1vh;
 }
 
 header img {
@@ -45,12 +47,10 @@ header img {
     padding: 5px 0 5px 5px;
 }
 
-header a {
+header a, li {
     text-decoration: none;
-}
-
-#menu {
     list-style-type: none;
+    color: var(--white);
 }
 
 /* Nav menu */
