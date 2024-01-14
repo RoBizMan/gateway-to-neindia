@@ -114,6 +114,17 @@ nav {
     color: var(--black);
 }
 
+/* Main placeholder */
+main {
+    background-color: greenyellow;
+    flex: 1 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: var(--brown);
+}
+
 /* Media query for tablets and larger screens (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
