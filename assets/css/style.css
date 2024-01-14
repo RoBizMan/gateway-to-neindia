@@ -126,9 +126,19 @@ footer {
     background-color: var(--brown);
 }
 
+footer p {
+    color: var(--white);
+    text-align: center;
+}
+
+#visit-socialm {
+    font-weight: bold;
+    font-size: 2vh;
+}
+
 #social-media {
     display: flex;
-    padding: 2vh 1vh;
+    padding: 1vh 1vh;
     text-align: center;
     justify-content: space-evenly;
 }
@@ -139,7 +149,10 @@ footer {
     padding: 0.5vh;
 }
 
-
+#copyright {
+    font-weight: lighter;
+    font-size: 1.5vh;
+}
 
 /* Media query for tablets and larger screens (768px and up) */
 @media screen and (min-width: 768px) {
