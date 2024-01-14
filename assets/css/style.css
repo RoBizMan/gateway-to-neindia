@@ -112,6 +112,7 @@ nav {
 .active {
     background-color: var(--yellow);
     color: var(--black);
+    padding: 0.5vh;
 }
 
 /* Main placeholder */
@@ -135,6 +136,7 @@ footer {
 #social-media i {
     font-size: 2.5vh;
     color: var(--white);
+    padding: 0.5vh;
 }
 
 
@@ -169,5 +171,12 @@ footer {
     .menu a:hover {
         background-color: var(--yellow);
         color: var(--black);
+        padding: 0.5vh;
+    }
+
+    #social-media i:hover {
+        background-color: var(--yellow);
+        color: var(--black);
+        padding: 0.5vh;
     }
 }
