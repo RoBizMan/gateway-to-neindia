@@ -117,16 +117,37 @@ nav {
     border-radius: 0.5vh;
 }
 
+/* Video background for the landing home page */
+video {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+}
+
 /* Main placeholder */
 main {
-    background-color: greenyellow;
-    flex: 1 0 auto;
     margin-top: 75px;
+    flex: 1 0 auto;
+}
+
+/* Welcome message on the landing home page */
+.welcome-message {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
 footer {
     background-color: var(--brown);
+    width: 100%;
+    position: sticky;
 }
 
 footer p {
