@@ -114,6 +114,7 @@ nav {
     background-color: var(--yellow);
     color: var(--black);
     padding: 0.5vh;
+    border-radius: 0.5vh;
 }
 
 /* Main placeholder */
@@ -192,6 +193,7 @@ footer p {
     .menu a:hover {
         background-color: var(--yellow);
         color: var(--black);
+        border-radius: 0.5vh;
     }
 
     #social-media i:hover {
