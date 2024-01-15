@@ -30,14 +30,14 @@ body {
 header {
     background-color: var(--brown);
     padding: 1rem;
-    position: sticky;
+    position: fixed;
     z-index: 50;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     box-shadow: 0 0.5vh 1vh 0.5vh var(--grey);
-    border-radius: 0 0 1vh 1vh;
+    border-radius: 0 0 0 1vh;
 }
 
 /* Logo image */
@@ -56,6 +56,7 @@ a {
 li {
     list-style-type: none;
     color: var(--white);
+    margin-top: 0.5vh;
 }
 
 /* Nav menu */
@@ -119,6 +120,7 @@ nav {
 main {
     background-color: greenyellow;
     flex: 1 0 auto;
+    margin-top: 75px;
 }
 
 /* Footer */
@@ -156,6 +158,7 @@ footer p {
 
 /* Media query for tablets and larger screens (768px and up) */
 @media screen and (min-width: 768px) {
+    
     /* Header */
     nav {
         display: block;
@@ -163,8 +166,9 @@ footer p {
         width: fit-content;
         padding-right: 1rem;
         box-shadow: none;
+        padding: 0.5vh;
     }
-
+    
     .menu {
         display: flex;
     }
@@ -177,6 +181,10 @@ footer p {
     .menu-toggle {
         display: none;
     }
+
+    main {
+        margin-top: 100px;
+    }
 }
 
 /* Media query for larger devices (laptops and desktops, 992px and up) */
@@ -184,7 +192,6 @@ footer p {
     .menu a:hover {
         background-color: var(--yellow);
         color: var(--black);
-        padding: 0.5vh;
     }
 
     #social-media i:hover {
