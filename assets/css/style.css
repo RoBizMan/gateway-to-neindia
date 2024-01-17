@@ -188,7 +188,7 @@ main {
 
 /* Explore Northeast section */
 #explore-northeast {
-    width: 98%;
+    width: 98vw;
     margin: 2vh;
 }
 
@@ -232,7 +232,7 @@ main {
 
 /* Explore map section */
 #explore-map {
-    width: 98%;
+    width: 98vh;
     margin: 2vh;
 }
 
@@ -271,6 +271,98 @@ main {
 }
 
 .seven-map-pic {
+    max-width: 95%;
+}
+
+.travel-container {
+    margin: 1vh;
+}
+
+/* Assam section */
+#travel-assam {
+    width: 98vw;
+    margin: 2vh;
+}
+
+/* Assam paragraph */
+#assam {
+    /* Fallback for any browser without RGBA-support */
+    background-color: var(--brown);
+    /* Any browser with RGBA-support */
+    background-color: rgba(79, 32, 13, 0.8);
+    margin: 1vh;
+    line-height: 2;
+    border-radius: 2vh;
+}
+
+#assam-ne {
+    padding: 2vh;
+    color: var(--white);
+}
+
+#assam-ne h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#assam-ne p {
+    margin: 2vh;
+    text-align: justify;
+}
+
+/* Assam image */
+#assam-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+}
+
+.assam-pic {
+    max-width: 95%;
+}
+
+/* Meghalaya section */
+#travel-meghalaya {
+    width: 98;
+    margin: 2vh;
+}
+
+/* Meghalaya paragraph */
+#meghalaya {
+    /* Fallback for any browser without RGBA-support */
+    background-color: var(--brown);
+    /* Any browser with RGBA-support */
+    background-color: rgba(79, 32, 13, 0.8);
+    margin: 1vh;
+    line-height: 2;
+    border-radius: 2vh;
+}
+
+#meghalaya-ne {
+    padding: 2vh;
+    color: var(--white);
+}
+
+#meghalaya-ne h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#meghalaya-ne p {
+    margin: 2vh;
+    text-align: justify;
+}
+
+/* Meghalaya image */
+#meghalaya-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+}
+
+.meghalaya-pic {
     max-width: 95%;
 }
 
