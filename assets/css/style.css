@@ -83,7 +83,7 @@ nav {
 }
 
 /* Menu style */
-.menu > li {
+.menu>li {
     margin-bottom: 2vh;
     font-size: 2vh;
 }
@@ -99,6 +99,7 @@ nav {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -132,15 +133,52 @@ video {
 /* Main placeholder */
 main {
     margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex: 1 0 auto;
 }
 
 /* Welcome message on the landing home page */
 .welcome-message {
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: var(--brown);
+    /* Fallback for any browser without RGBA-support */
+    background-color: rgba(79, 32, 13, 0.8);
+    border-radius: 1vh;
+    text-align: center;
+    padding: 10% 20%;
+    animation: fadeIn 2s;
+}
+
+/* Fade-in animation for welcome message on the landing page */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Font style for welcome message */
+.welcome-font-style {
+    margin-bottom: 2vh;
+    color: var(--white);
+}
+
+/* Style Explore button on the landing page */
+#wlcm-button {
+    background-color: var(--yellow);
+    padding: 1vh;
+    border-radius: 3vh;
+    border: var(--black) solid 2px;
+}
+
+/* Font style for Explore button */
+.visit-explore-btn {
+    color: var(--black);
+    font-size: 1rem;
 }
 
 /* Footer */
@@ -180,7 +218,7 @@ footer p {
 
 /* Media query for tablets and larger screens (768px and up) */
 @media screen and (min-width: 768px) {
-    
+
     /* Header */
     nav {
         display: block;
@@ -190,12 +228,12 @@ footer p {
         box-shadow: none;
         padding: 0.5vh;
     }
-    
+
     .menu {
         display: flex;
     }
 
-    .menu > li {
+    .menu>li {
         padding-left: 1rem;
         font-size: 2vh;
     }
@@ -207,6 +245,10 @@ footer p {
     main {
         margin-top: 100px;
     }
+
+    .welcome-message {
+        font-size: + 1vh;
+    }
 }
 
 /* Media query for larger devices (laptops and desktops, 992px and up) */
@@ -215,6 +257,12 @@ footer p {
         background-color: var(--yellow);
         color: var(--black);
         border-radius: 0.5vh;
+    }
+
+    #wlcm-button:hover {
+        box-shadow: 3px 3px 6px 0px var(--yellow);
+        background-color: var(--white);
+        transform: scale(1.3);
     }
 
     #social-media i:hover {
