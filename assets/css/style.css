@@ -141,8 +141,9 @@ main {
 
 /* Welcome message on the landing home page */
 .welcome-message {
+     /* Fallback for any browser without RGBA-support */
     background-color: var(--brown);
-    /* Fallback for any browser without RGBA-support */
+    /* Any browser with RGBA-support */
     background-color: rgba(79, 32, 13, 0.8);
     border-radius: 1vh;
     text-align: center;
@@ -183,9 +184,45 @@ main {
 
 /* Explore Northeast section */
 .main-explore {
-    padding: 5%;
+    /* Fallback for any browser without RGBA-support */
+    background-color: var(--brown);
+    /* Any browser with RGBA-support */
+    background-color: rgba(79, 32, 13, 0.8);
+    margin: 2%;
     line-height: 2;
+    border-radius: 2vh;
+    box-sizing: border-box;
 }
+
+/* Set image to the maximum width within the section width */
+.main-explore img {
+    max-width: 100%;
+    height: auto;
+    margin: 1vh;
+}
+
+#section-northeast {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2vh;
+    color: var(--white);
+    justify-content: center;
+  }
+
+  .seven-sis-pagh {
+    text-align: justify;
+  }
+
+  .justify-flexbox {
+    display: flex;
+    justify-content: center;
+  }
+
+  .seven-sis-img {
+    padding: 2vh;
+  }
 
 /* Footer */
 footer {
