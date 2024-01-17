@@ -232,7 +232,7 @@ main {
 
 /* Explore map section */
 #explore-map {
-    width: 98vh;
+    width: 98vw;
     margin: 2vh;
 }
 
@@ -310,6 +310,10 @@ main {
     text-align: justify;
 }
 
+#list-assam {
+    margin: 2vh;
+}
+
 /* Assam image */
 #assam-img {
     display: flex;
@@ -352,6 +356,10 @@ main {
 #meghalaya-ne p {
     margin: 2vh;
     text-align: justify;
+}
+
+#list-meghalaya {
+    margin: 2vh;
 }
 
 /* Meghalaya image */
@@ -459,7 +467,6 @@ footer p {
 
 /* Media query for larger screen size, 1200px and up) */
 @media screen and (min-width: 1200px) {
-
     /* Wrap explore Northeast section*/
     #seven-sis {
         display: flex;
@@ -485,6 +492,34 @@ footer p {
     }
 
     #seven-map-img {
+        order: 0;
+    }
+
+    /* Wrap Assam section*/
+    #assam {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #assam>div {
+        flex: 1;
+    }
+
+    #assam-img {
+        order: 0;
+    }
+
+    /* Wrap Meghalaya section*/
+    #meghalaya {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #meghalaya>div {
+        flex: 1;
+    }
+
+    #meghalaya-img {
         order: 0;
     }
 }
