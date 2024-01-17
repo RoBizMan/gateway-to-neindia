@@ -316,3 +316,20 @@ footer p {
         padding: 0.5vh;
     }
 }
+
+/* Media query for larger screen size, 1200px and up) */
+@media screen and (min-width: 1200px) {    
+    
+    #seven-sis {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #seven-sis > div {
+        flex: 1;
+    }
+
+    #seven-sis-img {
+        order: 0
+    }
+}
