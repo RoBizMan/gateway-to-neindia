@@ -274,6 +274,25 @@ main {
     max-width: 95%;
 }
 
+/* Move the Travel button to center */
+#travel-btn {
+    text-align: center;
+}
+
+/* Style Travel button on the Explore page */
+#travel-button {
+    background-color: var(--yellow);
+    padding: 1vh;
+    border-radius: 3vh;
+    border: var(--black) solid 2px;
+}
+
+/* Font style for Travel button */
+.visit-travel-btn {
+    color: var(--black);
+    font-size: 1rem;
+}
+
 .travel-container {
     margin: 1vh;
 }
@@ -450,8 +469,15 @@ footer p {
         border-radius: 0.5vh;
     }
 
-    /* Landing page button hover effect */
+    /* Landing page Explore button hover effect */
     #wlcm-button:hover {
+        box-shadow: 3px 3px 6px 0px var(--yellow);
+        background-color: var(--white);
+        transform: scale(1.3);
+    }
+
+    /* Travel button hover effect */
+    #travel-button:hover {
         box-shadow: 3px 3px 6px 0px var(--yellow);
         background-color: var(--white);
         transform: scale(1.3);
@@ -467,6 +493,7 @@ footer p {
 
 /* Media query for larger screen size, 1200px and up) */
 @media screen and (min-width: 1200px) {
+
     /* Wrap explore Northeast section*/
     #seven-sis {
         display: flex;
