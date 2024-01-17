@@ -182,47 +182,50 @@ main {
     font-size: 1rem;
 }
 
-/* Explore Northeast section */
-.main-explore {
+/* Explore section */
+#explore-northeast {
+    width: 100%;
+    margin: 2vh;
+}
+
+/* Seven sisters and one brother paragraph */
+#seven-sis {
     /* Fallback for any browser without RGBA-support */
     background-color: var(--brown);
     /* Any browser with RGBA-support */
     background-color: rgba(79, 32, 13, 0.8);
-    margin: 2%;
+    margin: 1vh;
     line-height: 2;
     border-radius: 2vh;
-    box-sizing: border-box;
 }
 
-/* Set image to the maximum width within the section width */
-.main-explore img {
-    max-width: 100%;
-    height: auto;
-    margin: 1vh;
-}
 
-#section-northeast {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
+#seven-sis-ne {
     padding: 2vh;
     color: var(--white);
-    justify-content: center;
-  }
+}
 
-  .seven-sis-pagh {
+#seven-sis-ne h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#seven-sis-ne p {
+    margin: 2vh;
     text-align: justify;
-  }
+}
 
-  .justify-flexbox {
+/* Seven sisters and one brother image */
+#seven-sis-img {
     display: flex;
     justify-content: center;
-  }
-
-  .seven-sis-img {
+    align-items: center;
     padding: 2vh;
-  }
+}
+
+.seven-sis-pic {
+    max-width: 100%;
+}
 
 /* Footer */
 footer {
@@ -288,26 +291,25 @@ footer p {
     main {
         margin-top: 100px;
     }
-
-    .welcome-message {
-        font-size: + 1vh;
-    }
 }
 
 /* Media query for larger devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+    /* Navbar hover effect */
     .menu a:hover {
         background-color: var(--yellow);
         color: var(--black);
         border-radius: 0.5vh;
     }
 
+    /* Landing page button hover effect */
     #wlcm-button:hover {
         box-shadow: 3px 3px 6px 0px var(--yellow);
         background-color: var(--white);
         transform: scale(1.3);
     }
 
+    /* Social media icons footer hover effect */
     #social-media i:hover {
         background-color: var(--yellow);
         color: var(--black);
