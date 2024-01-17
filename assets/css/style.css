@@ -141,7 +141,7 @@ main {
 
 /* Welcome message on the landing home page */
 .welcome-message {
-     /* Fallback for any browser without RGBA-support */
+    /* Fallback for any browser without RGBA-support */
     background-color: var(--brown);
     /* Any browser with RGBA-support */
     background-color: rgba(79, 32, 13, 0.8);
@@ -182,9 +182,13 @@ main {
     font-size: 1rem;
 }
 
-/* Explore section */
+.explore-container {
+    margin: 1vh;
+}
+
+/* Explore Northeast section */
 #explore-northeast {
-    width: 100%;
+    width: 98%;
     margin: 2vh;
 }
 
@@ -198,7 +202,6 @@ main {
     line-height: 2;
     border-radius: 2vh;
 }
-
 
 #seven-sis-ne {
     padding: 2vh;
@@ -224,7 +227,51 @@ main {
 }
 
 .seven-sis-pic {
-    max-width: 100%;
+    max-width: 95%;
+}
+
+/* Explore map section */
+#explore-map {
+    width: 98%;
+    margin: 2vh;
+}
+
+/* Map paragraph */
+#seven-map {
+    /* Fallback for any browser without RGBA-support */
+    background-color: var(--brown);
+    /* Any browser with RGBA-support */
+    background-color: rgba(79, 32, 13, 0.8);
+    margin: 1vh;
+    line-height: 2;
+    border-radius: 2vh;
+}
+
+#seven-map-ne {
+    padding: 2vh;
+    color: var(--white);
+}
+
+#seven-map-ne h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#seven-map-ne p {
+    margin: 2vh;
+    text-align: justify;
+}
+
+/* Map image */
+#seven-map-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+}
+
+.seven-map-pic {
+    max-width: 95%;
 }
 
 /* Footer */
@@ -295,6 +342,7 @@ footer p {
 
 /* Media query for larger devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+
     /* Navbar hover effect */
     .menu a:hover {
         background-color: var(--yellow);
@@ -318,18 +366,33 @@ footer p {
 }
 
 /* Media query for larger screen size, 1200px and up) */
-@media screen and (min-width: 1200px) {    
-    
+@media screen and (min-width: 1200px) {
+
+    /* Wrap explore Northeast section*/
     #seven-sis {
         display: flex;
         flex-direction: row;
     }
 
-    #seven-sis > div {
+    #seven-sis>div {
         flex: 1;
     }
 
     #seven-sis-img {
-        order: 0
+        order: 0;
+    }
+
+    /* Wrap explore Northeast section*/
+    #seven-map {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #seven-map>div {
+        flex: 1;
+    }
+
+    #seven-map-img {
+        order: 0;
     }
 }
