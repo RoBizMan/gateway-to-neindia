@@ -133,3 +133,13 @@ I have used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefr
 ![screenshot](documentation/mobile_wireframe_travel.png)
 ![screenshot](documentation/mobile_wireframe_contact.png)
 </details>
+
+### Tablet Wireframes
+<details>
+<summary>Tablet Wireframes</summary>
+
+![screenshot](documentation/tablet_wireframe_home.png)
+![screenshot](documentation/tablet_wireframe_explore.png)
+![screenshot](documentation/tablet_wireframe_travel.png)
+![screenshot](documentation/tablet_wireframe_contact.png)
+</details>
