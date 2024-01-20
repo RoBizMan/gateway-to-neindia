@@ -63,3 +63,49 @@ Please refer to the [Wireframes](#Wireframes) section for more detailed wirefram
 #### The Surface Plane
 
 [Click here to view the live site.](https://robizman.github.io/gateway-to-neindia/)
+
+### Colour Scheme
+
+I used [Color Hunt] (https://colorhunt.co/palette/4f200dffd93df6f1e9191919) to generate my colour palette
+
+\image of screenshot
+
+The colour palette represents the earthy and sunny Northeast India, making the website feel more earthy and easy for people to browse. However, it was crucial for the colour palette to pass the minimum colour contrast set by the Web Content Accessibility Guide (WCAG). The colour palette was tested using [Coolors' Color Contrast Checker](https://coolors.co/contrast-checker/). The result below shows that these colours passed the minimum WCAG contrast ratio.
+
+\image of screenshot
+
+I have used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
+
+```css
+:root {
+    --brown: #4F200D;
+    --yellow: #FFD93D;
+    --white: #F6F1E9;
+    --grey: #3D3B40;
+    --black: #191919;
+}
+```
+
+### Typography
+
+Hind Vadodara was chosen as the main font for the whole website. The font was imported from Google Fonts. The font makes the website look and feel very Indian.
+
+Sans-serif was used as a step-back font if Hind Vadodara failed to load on the website.
+
+## User Stories
+### New Site Users
+
+- As a new site user, I want to understand the site's purpose easily so that I can decide if it is useful.
+
+- As a new site user, I want to navigate the site intuitively so that I can find the information I seek.
+
+- As a new site user, I want to learn about the culture and attractions of Northeast India so that I can plan my trip.
+
+
+### Returning Site Users
+
+- As a returning user, I want to access the site from my mobile device so that I can plan my trip on the go.
+
+- As a returning user, I want to see each state's facts and recommendations so that I can visit unique places based on these recommendations.
+
+- As a returning user, I want to be able to contact the site owner so that I can ask questions.
