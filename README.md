@@ -143,3 +143,13 @@ I have used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefr
 ![screenshot](documentation/tablet_wireframe_travel.png)
 ![screenshot](documentation/tablet_wireframe_contact.png)
 </details>
+
+### Desktop Wireframes
+<details>
+<summary>Desktop Wireframes</summary>
+
+![screenshot](documentation/desktop_wireframe_home.png)
+![screenshot](documentation/desktop_wireframe_explore.png)
+![screenshot](documentation/desktop_wireframe_travel.png)
+![screenshot](documentation/desktop_wireframe_contact.png)
+</details>
