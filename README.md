@@ -54,7 +54,7 @@ Highlight the navigation where they are on the page.
 
 The requirements outlined in the Scope Plane were then used to create a structure for the website. A site map below shows how users can navigate the website easily.
 
-\image of the sitemap
+![screenshot](documentation/structure_plane.png)
 
 #### The Skeleton Plane
 
@@ -66,14 +66,22 @@ Please refer to the [Wireframes](#Wireframes) section for more detailed wirefram
 
 ### Colour Scheme
 
-I used [Color Hunt] (https://colorhunt.co/palette/4f200dffd93df6f1e9191919) to generate my colour palette
+I used [Color Hunt](https://colorhunt.co/palette/4f200dffd93df6f1e9191919) to generate my colour palette
 
-\image of screenshot
+![screenshot](documentation/colour_palette.png)
 
 The colour palette represents the earthy and sunny Northeast India, making the website feel more earthy and easy for people to browse. However, it was crucial for the colour palette to pass the minimum colour contrast set by the Web Content Accessibility Guide (WCAG). The colour palette was tested using [Coolors' Color Contrast Checker](https://coolors.co/contrast-checker/). The result below shows that these colours passed the minimum WCAG contrast ratio.
 
-\image of screenshot
+<details>
+<summary>Color Contrast Checker</summary>
 
+![screenshot](documentation/brown_white.png)
+![screenshot](documentation/brown_yellow.png)
+![screenshot](documentation/white_black.png)
+![screenshot](documentation/yellow_black.png)
+</details>
+
+<br>
 I have used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
 
 ```css
