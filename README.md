@@ -117,3 +117,19 @@ Sans-serif was used as a step-back font if Hind Vadodara failed to load on the w
 - As a returning user, I want to see each state's facts and recommendations so that I can visit unique places based on these recommendations.
 
 - As a returning user, I want to be able to contact the site owner so that I can ask questions.
+
+## Wireframes
+
+To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
+
+I have used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
+
+### Mobile Wireframes
+<details>
+<summary>Mobile Wireframes</summary>
+
+![screenshot](documentation/mobile_wireframe_home.png)
+![screenshot](documentation/mobile_wireframe_explore.png)
+![screenshot](documentation/mobile_wireframe_travel.png)
+![screenshot](documentation/mobile_wireframe_contact.png)
+</details>
