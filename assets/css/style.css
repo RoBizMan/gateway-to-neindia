@@ -86,6 +86,8 @@ nav {
 .menu>li {
     margin-bottom: 2vh;
     font-size: 2vh;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Toggle menu */
@@ -389,6 +391,57 @@ main {
     max-width: 95%;
 }
 
+/* Contact page */
+#contact-us {
+    /* Fallback for any browser without RGBA-support */
+    background-color: var(--brown);
+    /* Any browser with RGBA-support */
+    background-color: rgba(79, 32, 13, 0.8);
+    border-radius: 1vh;
+    padding: 1vh 2vw;
+    flex-grow: 1;
+}
+
+/* Font style for Question */
+.question {
+    margin-bottom: 2vh;
+    color: var(--white);
+    text-align: center;
+}
+
+.lblcolor {
+    color: var(--white);
+}
+
+/* Align the Send button to centre on the contact page */
+.submit-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1vh;
+}
+
+/* Style Send button on the contact page */
+#submit-msg-button {
+    background-color: var(--yellow);
+    padding: 1vh;
+    border-radius: 3vh;
+    border: var(--black) solid 2px;
+    text-align: center;
+}
+
+.text-input {
+    color: var(--black);
+    width: 100%;
+    margin: 1vh 0;
+    height: 3vh;
+}
+
+#message {
+    min-height: 10vh;
+    resize: none;
+}
+
 /* Footer */
 footer {
     background-color: var(--brown);
@@ -453,10 +506,6 @@ footer p {
     main {
         margin-top: 100px;
     }
-}
-
-/* Media query for larger devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
 
     /* Navbar hover effect */
     .menu a:hover {
@@ -474,6 +523,17 @@ footer p {
 
     /* Travel button hover effect */
     #travel-button:hover {
+        box-shadow: 3px 3px 6px 0px var(--yellow);
+        background-color: var(--white);
+        transform: scale(1.3);
+    }
+
+    .text-input:hover {
+        box-shadow: 3px 3px 6px 0px var(--yellow);
+    }
+
+    /* Contact page Send button hover effect */
+    #submit-msg-button:hover {
         box-shadow: 3px 3px 6px 0px var(--yellow);
         background-color: var(--white);
         transform: scale(1.3);
