@@ -452,8 +452,25 @@ main {
     padding: 10% 20%;
 }
 
-/* Font style for welcome message */
+/* Font style for thank you message */
 .thankyou-font-style {
+    margin-bottom: 2vh;
+    color: var(--white);
+}
+
+/* 404 Error page */
+.error-message {
+    /* Fallback for any browser without RGBA-support */
+    background-color: var(--brown);
+    /* Any browser with RGBA-support */
+    background-color: rgba(79, 32, 13, 0.8);
+    border-radius: 1vh;
+    text-align: center;
+    padding: 10% 20%;
+}
+
+/* Font style for 404 Error message */
+.error-font-style {
     margin-bottom: 2vh;
     color: var(--white);
 }
