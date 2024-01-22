@@ -161,7 +161,19 @@ I have used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefr
 #### The Home Page
 The Home Page is the first contact users will encounter when visiting this website. The page appears with the title welcoming users to the website with a slogan used to retain the users' engagement. In addition, a video background gives users the feel of the mother nature of Northeast India. Also, there is a button that leads users to the Explore page. [Click here to view the home page](https://robizman.github.io/gateway-to-neindia/index.html)
 
+- Desktop version
+
 ![screenshot](documentation/features_home.png)
+
+- Tablet version
+
+![screenshot](documentation/features_home_tablet.png)
+
+- Mobile version
+
+![screenshot](documentation/features_home_phone.png)
+
+#### Header
 
 
 
