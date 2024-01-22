@@ -20,6 +20,41 @@ Be a part of this exciting journey and uncover the hidden gems of Northeast Indi
 
 [Click here to view the Live website](https://robizman.github.io/gateway-to-neindia/)
 
+## Table of contents
+
+1. [Introduction](#introduction)
+1. [UX](#ux)
+    1. [Five Planes of User Experience](#five-planes-of-user-experience)
+        * [The Strategy Plane](#the-strategy-plane)
+        * [The Scope Plane](#the-scope-plane)
+        * [The Structure Plane](#the-structure-plane)
+        * [The Skeleton Plane](#the-skeleton-plane)
+        * [The Surface Plane](#the-surface-plane)
+    1. [Colour Scheme](#colour-scheme)
+    1. [Typography](#typography)
+1. [User Stories](#user-stories)
+    1. [New Site Users](#new-site-users)
+    1. [Returning Site Users](#returning-site-users)
+1. [Wireframes](#wireframes)
+    1. [Mobile wireframe](#mobile-wireframes)
+    1. [Tablet wireframe](#tablet-wireframes)
+    1. [Desktop wireframe](#desktop-wireframes)
+1. [Features](#features)
+    1. [Existing Features](#existing-features)
+    1. [Future Features](#future-features)
+1. [Tools & Technologies Used](#tools--technologies-used)
+1. [Testing]
+1. [Deployment](#deployment)
+    1. [Local Deployment](#local-deployment)
+        * [Cloning](#cloning)
+        * [Forking](#forking)
+    1. [Local vs Deployment](#local-vs-deployment)
+1. [Credits](#credits)
+    1. [Content](#content)
+    1. [Media](#media)
+    1. [Acknowledgements](#acknowledgements)
+***
+
 ## UX
 
 In this project, I follow the Five Planes of User Experience model invented by Jesse James Garrett.
