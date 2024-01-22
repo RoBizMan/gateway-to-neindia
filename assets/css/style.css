@@ -170,18 +170,15 @@ main {
     color: var(--white);
 }
 
-/* Style Explore button on the landing page */
-#wlcm-button {
+/* Explore button */
+.visit-explore-btn {
     background-color: var(--yellow);
     padding: 1vh;
     border-radius: 3vh;
     border: var(--black) solid 2px;
-}
-
-/* Font style for Explore button */
-.visit-explore-btn {
     color: var(--black);
     font-size: 1rem;
+    cursor: pointer;
 }
 
 .explore-container {
@@ -276,21 +273,18 @@ main {
 
 /* Move the Travel button to center */
 #travel-btn {
+    margin-top: 5vh;
     text-align: center;
 }
 
-/* Style Travel button on the Explore page */
-#travel-button {
+/* Travel button on the Explore page */
+.visit-travel-btn {
+    color: var(--black);
+    font-size: 1rem;
     background-color: var(--yellow);
     padding: 1vh;
     border-radius: 3vh;
     border: var(--black) solid 2px;
-}
-
-/* Font style for Travel button */
-.visit-travel-btn {
-    color: var(--black);
-    font-size: 1rem;
 }
 
 .travel-container {
@@ -549,17 +543,15 @@ footer p {
     }
 
     /* Landing page Explore button hover effect */
-    #wlcm-button:hover {
+    .visit-explore-btn:hover {
         box-shadow: 3px 3px 6px 0px var(--yellow);
         background-color: var(--white);
-        transform: scale(1.3);
     }
 
     /* Travel button hover effect */
-    #travel-button:hover {
+    .visit-travel-btn:hover {
         box-shadow: 3px 3px 6px 0px var(--yellow);
         background-color: var(--white);
-        transform: scale(1.3);
     }
 
     #contact {
