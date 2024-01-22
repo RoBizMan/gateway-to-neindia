@@ -215,6 +215,12 @@ The Contact page features a contact form for users to input their first name, su
 
 ![screenshot](documentation/features_contactform.png)
 
+#### The Confirmation page
+
+Once a user submits the contact form, they will go to the confirmation page to confirm that their contact form was submitted successfully. The users will be redirected to the home page automatically after 10 seconds. [Click here to view the Confirmation page](https://robizman.github.io/gateway-to-neindia/confirmation.html)
+
+![screenshot](documentation/features_confirmation.png)
+
 
 
 ## Tools & Technologies Used
