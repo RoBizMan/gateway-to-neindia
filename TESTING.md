@@ -47,3 +47,17 @@ I have tested my deployed project on multiple devices to check for responsivenes
 | Samsung Galaxy Tab S4 | ![screenshot](documentation/galaxytab_home.png) | ![screenshot](documentation/galaxytab_explore.png) | ![screenshot](documentation/galaxytab_travel.png) | ![screenshot](documentation/galaxytab_contact.png) | ![screenshot](documentation/galaxytab_confirmation.png) | ![screenshot](documentation/galaxytab_error.png) | Works as expected |
 | Samsung Galaxy S20+ Ultra | ![screenshot](documentation/galaxyph_home.png) | ![screenshot](documentation/galaxyph_explore.png) | ![screenshot](documentation/galaxyph_travel.png) | ![screenshot](documentation/galaxyph_contact.png) | ![screenshot](documentation/galaxyph_confirmation.png) | ![screenshot](documentation/galaxyph_error.png) | Works as expected |
 | Microsoft Surface Duo | ![screenshot](documentation/surfaceduo_home.png) | ![screenshot](documentation/surfaceduo_explore.png) | ![screenshot](documentation/surfaceduo_travel.png) | ![screenshot](documentation/surfaceduo_contact.png) | ![screenshot](documentation/surfaceduo_confirmation.png) | ![screenshot](documentation/surfaceduo_error.png) | Works as expected |
+
+## Lighthouse Audit
+
+I have tested my deployed project using the Lighthouse Audit tool to check for any major issues.
+
+| Page | Mobile | Desktop | Notes |
+| --- | --- | --- | --- |
+| Home | ![screenshot](documentation/lighthouse_home_mobile.png) | ![screenshot](documentation/lighthouse_home_desktop.png) | Some minor performance warnings |
+| Explore | ![screenshot](documentation/lighthouse_explore_mobile.png) | ![screenshot](documentation/lighthouse_explore_desktop.png) | Some minor warnings |
+| Travel | ![screenshot](documentation/lighthouse_travel_mobile.png) | ![screenshot](documentation/lighthouse_travel_desktop.png) | Some minor performance warnings |
+| Contact | ![screenshot](documentation/lighthouse_contact_mobile.png) | ![screenshot](documentation/lighthouse_contact_desktop.png) | Some minor warnings |
+| Confirmation | ![screenshot](documentation/lighthouse_confirmation_mobile.png) | ![screenshot](documentation/lighthouse_confirmation_desktop.png) | Some minor warnings |
+| 404 | ![screenshot](documentation/lighthouse_error_mobile.png) | ![screenshot](documentation/lighthouse_error_desktop.png) | Some minor warnings |
+
