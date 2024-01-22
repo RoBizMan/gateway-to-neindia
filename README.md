@@ -16,9 +16,9 @@ The website is designed to accommodate a diverse audience. It is tailored for ad
 
 Be a part of this exciting journey and uncover the hidden gems of Northeast India with us!
 
-\image of AmIResponsive here
+![screenshot](documentation/amiresponsive.png)
 
-\Link to a live website here
+[Click here to view the Live website](https://robizman.github.io/gateway-to-neindia/)
 
 ## UX
 
