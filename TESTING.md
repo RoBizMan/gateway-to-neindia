@@ -35,3 +35,15 @@ I have tested my deployed project on multiple browsers to check for compatibilit
 | Brave | ![screenshot](documentation/brave_home.png) | ![screenshot](documentation/brave_explore.png) | ![screenshot](documentation/brave_travel.png) | ![screenshot](documentation/brave_contact.png) | ![screenshot](documentation/brave_confirmation.png) | ![screenshot](documentation/brave_error.png) | Works as expected |
 | Safari | ![screenshot](documentation/safari_home.png) | ![screenshot](documentation/safari_explore.png) | ![screenshot](documentation/safari_travel.png) | ![screenshot](documentation/safari_contact.png) | ![screenshot](documentation/safari_confirmation.png) | ![screenshot](documentation/safari_error.png) | Works as expected |
 
+## Responsiveness
+
+I have tested my deployed project on multiple devices to check for responsiveness issues.
+
+| Device | Home | Explore | Travel | Contact | Confirmation | 404 | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| iPhone 15 Pro Max | ![screenshot](documentation/iphone_home.png) | ![screenshot](documentation/iphone_explore.png) | ![screenshot](documentation/iphone_travel.png) | ![screenshot](documentation/iphone_contact.png) | ![screenshot](documentation/iphone_confirmation.png) | ![screenshot](documentation/iphone_error.png) | Works as expected |
+| iPad Pro | ![screenshot](documentation/ipadpro_home.png) | ![screenshot](documentation/ipadpro_explore.png) | ![screenshot](documentation/ipadpro_travel.png) | ![screenshot](documentation/ipadpro_contact.png) | ![screenshot](documentation/ipadpro_confirmation.png) | ![screenshot](documentation/ipadpro_error.png) | Works as expected |
+| iPad Mini | ![screenshot](documentation/ipadmini_home.png) | ![screenshot](documentation/ipadmini_explore.png) | ![screenshot](documentation/ipadmini_travel.png) | ![screenshot](documentation/ipadmini_contact.png) | ![screenshot](documentation/ipadmini_confirmation.png) | ![screenshot](documentation/ipadmini_error.png) | Works as expected |
+| Samsung Galaxy Tab S4 | ![screenshot](documentation/galaxytab_home.png) | ![screenshot](documentation/galaxytab_explore.png) | ![screenshot](documentation/galaxytab_travel.png) | ![screenshot](documentation/galaxytab_contact.png) | ![screenshot](documentation/galaxytab_confirmation.png) | ![screenshot](documentation/galaxytab_error.png) | Works as expected |
+| Samsung Galaxy S20+ Ultra | ![screenshot](documentation/galaxyph_home.png) | ![screenshot](documentation/galaxyph_explore.png) | ![screenshot](documentation/galaxyph_travel.png) | ![screenshot](documentation/galaxyph_contact.png) | ![screenshot](documentation/galaxyph_confirmation.png) | ![screenshot](documentation/galaxyph_error.png) | Works as expected |
+| Microsoft Surface Duo | ![screenshot](documentation/surfaceduo_home.png) | ![screenshot](documentation/surfaceduo_explore.png) | ![screenshot](documentation/surfaceduo_travel.png) | ![screenshot](documentation/surfaceduo_contact.png) | ![screenshot](documentation/surfaceduo_confirmation.png) | ![screenshot](documentation/surfaceduo_error.png) | Works as expected |
