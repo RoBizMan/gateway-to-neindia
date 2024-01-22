@@ -427,6 +427,7 @@ main {
     border-radius: 3vh;
     border: var(--black) solid 2px;
     text-align: center;
+    color: var(--black);
 }
 
 .text-input {
