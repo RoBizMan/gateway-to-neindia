@@ -227,6 +227,15 @@ If the user inputs the incorrect URL address, the 404 error page will appear and
 
 ![screenshot](documentation/features_errorlinknotfound.png)
 
+### Future features
+
+- The remaining states of Northeast India shall be added to the Travel page.
+- The Travel page will have its own dropdown menu for each state of Northeast India, as the travel information for each state will be extensive.
+- The dark mode toggle shall be implemented on the website to give users an option to enable a dark mode on this website.
+- Implement DeepL's or Google Translate's direct translation across the website using API.
+- Introduce an AI-powered chatbot across the website to make users feel they are conversing with someone about Northeast India at the basic level.
+- Introduce an AI-powered travel plan generator to allow users to generate their travel plans on their visit to Northeast India.
+
 ## Tools & Technologies Used
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
