@@ -43,7 +43,7 @@ Be a part of this exciting journey and uncover the hidden gems of Northeast Indi
     1. [Existing Features](#existing-features)
     1. [Future Features](#future-features)
 1. [Tools & Technologies Used](#tools--technologies-used)
-1. [Testing]
+1. [Testing](#testing)
 1. [Deployment](#deployment)
     1. [Local Deployment](#local-deployment)
         * [Cloning](#cloning)
@@ -282,6 +282,10 @@ If the user inputs the incorrect URL address, the 404 error page will appear and
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
 - [CodePen](https://codepen.io/) used for toying and testing with CSS design before committing changes to the actual website design.
+
+## Testing
+
+For all testing, please refer to the [TESTING.md](TESTING.md) file.
 
 ## Deployment
 
