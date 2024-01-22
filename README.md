@@ -209,6 +209,12 @@ The Travel page also breaks down into two sections: Assam and Meghalaya. This pa
 ![screenshot](documentation/features_travel_assam.png)
 ![screenshot](documentation/features_travel_meghalaya.png)
 
+#### The Contact page
+
+The Contact page features a contact form for users to input their first name, surname, email address, and message. This page enables users to contact the website's owner directly. Also, there is a button that users need to click to send their form to the website's owner. [Click here to view the Contact page](https://robizman.github.io/gateway-to-neindia/contact.html)
+
+![screenshot](documentation/features_contactform.png)
+
 
 
 ## Tools & Technologies Used
