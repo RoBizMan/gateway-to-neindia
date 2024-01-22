@@ -61,3 +61,13 @@ I have tested my deployed project using the Lighthouse Audit tool to check for a
 | Confirmation | ![screenshot](documentation/lighthouse_confirmation_mobile.png) | ![screenshot](documentation/lighthouse_confirmation_desktop.png) | Some minor warnings |
 | 404 | ![screenshot](documentation/lighthouse_error_mobile.png) | ![screenshot](documentation/lighthouse_error_desktop.png) | Some minor warnings |
 
+## User Story Testing
+
+| User Story | Screenshot |
+| --- | --- |
+| As a new site user, I want to understand the site's purpose easily so that I can decide if it is useful. | ![screenshot](documentation/features_home.png) |
+| As a new site user, I want to navigate the site intuitively so that I can find the information I seek. | ![screenshot](documentation/features_header.png) |
+| As a new site user, I want to learn about the culture and attractions of Northeast India so that I can plan my trip. | ![screenshot](documentation/features_explore_sevensisonebro.png) |
+| As a returning user, I want to access the site from my mobile device so that I can plan my trip on the go. | ![screenshot](documentation/features_home_phone.png) |
+| As a returning user, I want to see each state's facts and recommendations so that I can visit unique places based on these recommendations. | ![screenshot](documentation/features_travel_assam.png) |
+| As a returning user, I want to be able to contact the site owner so that I can ask questions. | ![screenshot](documentation/features_contactform.png) |
