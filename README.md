@@ -221,7 +221,11 @@ Once a user submits the contact form, they will go to the confirmation page to c
 
 ![screenshot](documentation/features_confirmation.png)
 
+#### The 404 Error page
 
+If the user inputs the incorrect URL address, the 404 error page will appear and redirect the user back to the home page automatically after 10 seconds. [Click here to view the 404 Error page](https://robizman.github.io/gateway-to-neindia/404.html)
+
+![screenshot](documentation/features_errorlinknotfound.png)
 
 ## Tools & Technologies Used
 
