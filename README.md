@@ -189,6 +189,22 @@ At the top of the website is the header, where users can see the company's logo 
 
 ![screenshot](documentation/features_header_phone.png)
 
+#### Footer
+
+The footer is at the bottom of the website, where users can visit the company's social media presence. The copyright message is located below social media icons.
+
+- Desktop version
+
+![screenshot](documentation/features_footer.png)
+
+- Tablet version
+
+![screenshot](documentation/features_footer_tablet.png)
+
+- Mobile version
+
+![screenshot](documentation/features_footer_phone.png)
+
 
 
 
