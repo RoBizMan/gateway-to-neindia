@@ -173,7 +173,23 @@ The Home Page is the first contact users will encounter when visiting this websi
 
 ![screenshot](documentation/features_home_phone.png)
 
-#### Header
+#### Header & Navigation Menu
+
+At the top of the website is the header, where users can see the company's logo on the left and the fixed navigation menu on the right side, which was made to be fully responsive across different device sizes. In addition, the navigation menu is hidden on a mobile device, and the hamburger icon allows users to open and close the navigation menu.
+
+- Desktop version
+
+![screenshot](documentation/features_header.png)
+
+- Tablet version
+
+![screenshot](documentation/features_header_tablet.png)
+
+- Mobile version
+
+![screenshot](documentation/features_header_phone.png)
+
+
 
 
 
